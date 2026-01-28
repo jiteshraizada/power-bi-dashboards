@@ -3,7 +3,8 @@
 ## Daily Progress
 | Date | Task | Status | GitHub Commit |
 |------|------|--------|---------------|
-| 2026-01-27 | WiseOwl DAX Videos 1-2 | ✅ Complete | [feat: KPI slicer] |
+| 2026-01-27 | WiseOwl DAX Videos 1-2 | Completed ✅ | [feat: KPI slicer] |
+| 2026-01-28 | Day 3 Production DAX | Completed ✅ | Page 3 Combo Chart |
 
 ## DAX Learning Journey
 **Video 2 - Disconnected KPI Slicer**
@@ -16,16 +17,9 @@
 | Delivered Orders |
 
 **Dynamic KPI Measure:**
-```dax
-VAR SelectedKPI = SELECTEDVALUE(KPI_Slicer[KPI], "Total Sales")
-VAR DeliveredAmount = [Delivered Sales]
-RETURN SWITCH(SelectedKPI,
-    "Total Sales", DeliveredAmount,
-    "Avg Order Value", AVERAGE(Sales[Amount]),
-    "Delivered Orders", CALCULATE(COUNTROWS(Sales), DeliveredAmount > 0),
-    DeliveredAmount
-)
-**## Daily Progress
-| Date | Task | Status | GitHub Commit |
-|------|------|--------|---------------|
-| 2026-01-27 | WiseOwl DAX Videos 1-2 | ✅ Complete | [feat: KPI slicer] |**
+
+
+**Key Features Added**
+• Dynamic KPI slicer switches metrics instantly
+• Production profit calc + brand combo chart
+• Active products (delivered orders > 0 filter)
