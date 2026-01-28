@@ -25,16 +25,14 @@ RETURN SWITCH(SelectedKPI,
     "Delivered Orders", CALCULATE(COUNTROWS(Sales), DeliveredAmount > 0),
     DeliveredAmount
 )
+# Day 3 Git Push (9PM)
+git add .
+git commit -m "feat: **Day 3** production dashboard complete
 
-## Daily Progress
-| Date | Task | Status | Commit |
-|------|------|--------|--------|
-| 2026-01-27 | WiseOwl DAX Videos 1-2 | ✅ | KPI slicer |
-| 2026-01-28 | Day 3 Production Updates | ✅ | [Page 3 Combo Chart] |
-<img width="1188" height="650" alt="Profit and Delivered Sales By Brand" src="https://github.com/user-attachments/assets/d8ed12ee-e8b9-4944-900c-fa9ca0478d75" />
+**Page 3 Updated Sales:**
+- 🔄 Dynamic KPI slicer (Page 2)
+- 💰 Real Profit calc (UnitPrice×Qty-Shipping, delivered filter)
+- 📊 Brand combo chart w/ top performer highlight
+- Active products filtered delivered orders > 0"
 
-## Page 3: Updated Sales Dashboard
-**Combo Chart**: Profit bars vs Delivered Sales line (by Brand)
-- Top profit contributor auto-colored
-- Negative profit risk detection  
-- Dual-axis executive summary style
+git push origin main
