@@ -25,4 +25,4 @@
 • Active products (delivered orders > 0 filter)
 
 
-![Profit and Delivered Sales by Brand.png](folder-name/Profit and Delivered Sales by Brand.png)
+([folder-name/Profit and Delivered Sales by Brand.png)](https://github.com/jiteshraizada/power-bi-dashboards/blob/33e70c14f109b06e305da58b825a84780065a54b/folder-name/Profit%20and%20Delivered%20Sales%20by%20Brand.png)
