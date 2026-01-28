@@ -24,4 +24,4 @@
 • Production profit calc + brand combo chart
 • Active products (delivered orders > 0 filter)
 
-![Dashboard]([folder-name/Profit and Delivered Sales by Brand.png](https://github.com/jiteshraizada/power-bi-dashboards/blob/main/folder-name/Profit%20and%20Delivered%20Sales%20by%20Brand.png?raw=true))
+(folder-name/Profit and Delivered Sales by Brand.png)
