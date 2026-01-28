@@ -25,14 +25,13 @@ RETURN SWITCH(SelectedKPI,
     "Delivered Orders", CALCULATE(COUNTROWS(Sales), DeliveredAmount > 0),
     DeliveredAmount
 )
-# Day 3 Git Push (9PM)
-git add .
-git commit -m "feat: **Day 3** production dashboard complete
+**Daily Progress**
+**Date | Task | Status
+-----|------|-------**
+2026-01-27 | WiseOwl DAX Videos 1-2 | ✅ KPI Slicer 
+2026-01-28 | Day 3 Production DAX | ✅ Page 3 Combo Chart
 
-**Page 3 Updated Sales:**
-- 🔄 Dynamic KPI slicer (Page 2)
-- 💰 Real Profit calc (UnitPrice×Qty-Shipping, delivered filter)
-- 📊 Brand combo chart w/ top performer highlight
-- Active products filtered delivered orders > 0"
-
-git push origin main
+Key Features
+• Dynamic KPI slicer switches metrics instantly
+• Production profit calc + brand combo chart 
+• Active products filtered to delivered orders only
