@@ -17,7 +17,7 @@
 | Delivered Orders |
 
 **Dynamic KPI Measure:**
-![Page 3 Dashboard](page3-combo.png)
+![Page 3 Dashboard](current.png)
 
 **Key Features Added**
 • Dynamic KPI slicer switches metrics instantly
