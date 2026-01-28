@@ -24,4 +24,5 @@
 • Production profit calc + brand combo chart
 • Active products (delivered orders > 0 filter)
 
-(folder-name/Profit and Delivered Sales by Brand.png)
+
+![Profit and Delivered Sales by Brand.png](folder-name/Profit and Delivered Sales by Brand.png)
