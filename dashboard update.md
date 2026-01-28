@@ -17,11 +17,11 @@
 | Delivered Orders |
 
 **Dynamic KPI Measure:**
-![folder-name](current.png)
+![Page 2 Dashboard](current.png)
 
 **Key Features Added**
 • Dynamic KPI slicer switches metrics instantly
 • Production profit calc + brand combo chart
 • Active products (delivered orders > 0 filter)
 
-![Page 3 Dashboard](folder-name/Profit and Delivered Sales by Brand.png)
+![folder-name](folder-name/Profit and Delivered Sales by Brand.png)
