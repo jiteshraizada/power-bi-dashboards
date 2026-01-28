@@ -25,13 +25,7 @@ RETURN SWITCH(SelectedKPI,
     "Delivered Orders", CALCULATE(COUNTROWS(Sales), DeliveredAmount > 0),
     DeliveredAmount
 )
-**Daily Progress**
-**Date | Task | Status
------|------|-------**
-2026-01-27 | WiseOwl DAX Videos 1-2 | ✅ KPI Slicer 
-2026-01-28 | Day 3 Production DAX | ✅ Page 3 Combo Chart
-
-Key Features
-• Dynamic KPI slicer switches metrics instantly
-• Production profit calc + brand combo chart 
-• Active products filtered to delivered orders only
+**## Daily Progress
+| Date | Task | Status | GitHub Commit |
+|------|------|--------|---------------|
+| 2026-01-27 | WiseOwl DAX Videos 1-2 | ✅ Complete | [feat: KPI slicer] |**
