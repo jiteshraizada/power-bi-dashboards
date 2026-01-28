@@ -15,7 +15,7 @@ quantity, and region.
 
 ## 📌 Dashboard Features
 - Total Sales, Profit & Orders KPIs
-- Category-wise and Product-wise analysis
+- Category-wise, Product-wise analysis and Brand-wise analysis
 - Monthly and Yearly sales trends
 - Region-wise performance
 - Interactive filters and slicers
