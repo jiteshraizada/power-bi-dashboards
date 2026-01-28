@@ -23,3 +23,5 @@
 • Dynamic KPI slicer switches metrics instantly
 • Production profit calc + brand combo chart
 • Active products (delivered orders > 0 filter)
+**Profit and Sales By Brand**
+![Page 3 Dashboard](current.png)
